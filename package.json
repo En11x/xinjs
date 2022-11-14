@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.json --max-warnings 0 --cache",
-    "lint:fix":"pnpm run lint --fix",
+    "lint:fix": "pnpm run lint --fix",
+    "format": "prettier --write --cache .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +17,9 @@
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
     "typescript": "^4.8.4"
   }
 }

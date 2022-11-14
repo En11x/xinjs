@@ -2,8 +2,8 @@
   "root": true,
   "env": {
     "browser": true,
-    "es6":true,
-    "es2021":true,
+    "es6": true,
+    "es2021": true,
     "node": true
   },
   "parser": "@typescript-eslint/parser",
@@ -12,12 +12,12 @@
     "ecmaVersion": 12,
     "ecmaFeatures": {
       "jsx": true,
-      "tsx":true
+      "tsx": true
     }
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
-    "no-console":"error",
-    "no-debugger":"error"
+    "no-console": "error",
+    "no-debugger": "error"
   }
 }
