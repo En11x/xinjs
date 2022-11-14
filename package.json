@@ -11,7 +11,9 @@
     "test": "vitest test",
     "coverage": "vitest run --coverage",
     "docs:dev": "vitepress dev packages",
-    "docs:build": "vitepress build packages"
+    "docs:build": "vitepress build packages",
+    "dev": "tsup --watch",
+    "build": "tsup"
   },
   "lint-staged": {
     "*.{vue,js,ts,jsx,tsx,md,json}": [
@@ -20,7 +22,11 @@
     ]
   },
   "keywords": [
-    "xin","xinjs","utils","hooks","vue-hooks"
+    "xin",
+    "xinjs",
+    "utils",
+    "hooks",
+    "vue-hooks"
   ],
   "author": "Xin",
   "license": "ISC",
@@ -37,6 +43,7 @@
     "husky": "^8.0.2",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
+    "tsup": "^6.4.0",
     "typescript": "^4.8.4",
     "vitepress": "1.0.0-alpha.28",
     "vitest": "^0.25.1"

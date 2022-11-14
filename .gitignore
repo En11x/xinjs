@@ -1,6 +1,6 @@
 .DS_Store
 .history
-# .vscode
+.vscode
 .idea
 .eslintcache
 .pnpm-debug.log
