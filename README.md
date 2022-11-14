@@ -1,1 +1,3 @@
-# wanjs
+# xinjs
+
+## A wanton js libray
