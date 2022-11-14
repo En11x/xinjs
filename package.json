@@ -9,7 +9,9 @@
     "lint:fix": "pnpm run lint --fix",
     "format": "prettier --write --cache .",
     "test": "vitest test",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "docs:dev": "vitepress dev packages",
+    "docs:build": "vitepress build packages"
   },
   "lint-staged": {
     "*.{vue,js,ts,jsx,tsx,md,json}": [
@@ -17,8 +19,10 @@
       "pnpm run format"
     ]
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "xin","xinjs","utils","hooks","vue-hooks"
+  ],
+  "author": "Xin",
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
@@ -34,6 +38,7 @@
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "typescript": "^4.8.4",
+    "vitepress": "1.0.0-alpha.28",
     "vitest": "^0.25.1"
   }
 }
