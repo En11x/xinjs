@@ -1,6 +1,5 @@
-
 export default {
-  base: 'xinjs',
+  base: '/xinjs/',
   title: 'xinjs',
-  lang: 'zh-CN'
+  lang: 'zh-CN',
 };
