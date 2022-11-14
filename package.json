@@ -1,5 +1,5 @@
 {
-  "name": "wanjs",
+  "name": "xinjs",
   "version": "1.0.0",
   "description": "A wanton js library",
   "main": "index.js",
@@ -24,7 +24,7 @@
   },
   "keywords": [
     "xin",
-    "wanjs",
+    "xinjs",
     "utils",
     "hooks",
     "vue-hooks"
