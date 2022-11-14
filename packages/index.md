@@ -13,5 +13,19 @@
       - theme: brand
         text: 快速开始
         link: /guide/
+      - theme: alt
+        text: View on Github
+        link: https://github.com/XlnOnly/xinjs
+
+  features:
+    - title: 功能丰富
+      details: 各种工具函数
+      icon: 🛠️
+    - title: 强类型支持
+      details: 使用TypeScript编写,良好类型支持
+      icon: 🦾
+    - title: 更多功能
+      details: （持续充电建设中...）
+      icon: 🔋
 
 ---
