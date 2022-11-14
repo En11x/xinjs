@@ -1,7 +1,7 @@
 {
-  "name": "xinjs",
+  "name": "wanjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "A wanton js library",
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
@@ -13,7 +13,8 @@
     "docs:dev": "vitepress dev packages",
     "docs:build": "vitepress build packages",
     "dev": "tsup --watch",
-    "build": "tsup"
+    "build": "tsup",
+    "release":"changeset publish"
   },
   "lint-staged": {
     "*.{vue,js,ts,jsx,tsx,md,json}": [
@@ -23,14 +24,18 @@
   },
   "keywords": [
     "xin",
-    "xinjs",
+    "wanjs",
     "utils",
     "hooks",
     "vue-hooks"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Xin",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.25.2",
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
     "@types/node": "^18.11.9",
