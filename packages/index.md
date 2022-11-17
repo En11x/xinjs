@@ -24,6 +24,9 @@
     - title: 强类型支持
       details: 使用TypeScript编写,良好类型支持
       icon: 🦾
+    - title: Patterns
+      details: Javascript patterns!
+      icon: 🕶
     - title: 更多功能
       details: （持续充电建设中...）
       icon: 🔋
