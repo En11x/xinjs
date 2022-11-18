@@ -1,12 +1,17 @@
 const Guide = [{ text: 'Get Started', link: '/guide/' }];
-const Patterns = [{ text: 'Scheduler', link: '/scheduler/' }];
+const Schedule = [
+  Guide,
+  { text: 'Scheduler', link: '/packages/patterns/scheduler/' },
+];
 
-const DefaultSideBar = [{ text: '指导', items: Guide }];
-const PatternsSideBar = [{ text: 'javascript设计模式', items: Patterns }];
+const DefaultSideBar = [
+  { text: 'Guide', items: Guide },
+  { text: 'Patterns', items: Schedule },
+];
 
 export default {
-  base: '/xinjs/',
-  title: ' ',
+  base: '/',
+  title: 'xinjs',
   lang: 'zh-CN',
   themeConfig: {
     logo: '/logo.png',
@@ -18,7 +23,7 @@ export default {
         link: 'https://github.com/XlnOnly/xinjs',
       },
     ],
-    nav: [{ text: '指南', link: '/guide/' }],
+    nav: [{ text: 'Guide', link: '/guide/' }],
     sidebar: {
       '/guide/': [
         {
@@ -26,7 +31,12 @@ export default {
           items: DefaultSideBar,
         },
       ],
-      '/patterns/': [{ text: '', items: PatternsSideBar }],
+      '/packages/': [
+        {
+          text: '',
+          items: DefaultSideBar,
+        },
+      ],
     },
   },
 };

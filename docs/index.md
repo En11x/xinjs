@@ -11,7 +11,7 @@
     tagline: 🔥一个很随意的开源前端库
     actions:
       - theme: brand
-        text: 快速开始
+        text: Get Started
         link: /guide/
       - theme: alt
         text: View on Github

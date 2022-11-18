@@ -9,15 +9,15 @@ category: Patterns
 ## Usage
 
 ```ts
-import { Schedule } from '@xinjs/patterns';
+import { Scheduler } from '@xinjs/patterns';
 
-const schedule = new Schedule(2);
+const scheduler = new Schedule(2);
 ```
 
-## code
+## Code
 
 ```ts
-class Schedule {
+class Scheduler {
   //max task
   private max: number;
   //waiting task list
@@ -44,7 +44,7 @@ class Schedule {
 }
 ```
 
-## example
+## Example
 
 ```ts
 const sleep = (time: number) => {
@@ -53,13 +53,13 @@ const sleep = (time: number) => {
   });
 };
 
-const schedule = new Schedule(2);
+const scheduler = new Scheduler(2);
 
-schedule.add(() => sleep(1000).then(() => console.log(1)));
-schedule.add(() => sleep(2000).then(() => console.log(2)));
-schedule.add(() => sleep(1000).then(() => console.log(3)));
-schedule.add(() => sleep(3000).then(() => console.log(4)));
-schedule.add(() => sleep(2000).then(() => console.log(5)));
+scheduler.add(() => sleep(1000).then(() => console.log(1)));
+scheduler.add(() => sleep(2000).then(() => console.log(2)));
+scheduler.add(() => sleep(1000).then(() => console.log(3)));
+scheduler.add(() => sleep(3000).then(() => console.log(4)));
+scheduler.add(() => sleep(2000).then(() => console.log(5)));
 
 //console
 // 1

@@ -1,5 +1,5 @@
 //支持并发数量的异步任务调度器
-class Schedule {
+class Scheduler {
   //max task
   private max: number;
   //waiting task list
@@ -25,4 +25,4 @@ class Schedule {
   }
 }
 
-export default Schedule;
+export default Scheduler;
