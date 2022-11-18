@@ -10,7 +10,7 @@ const DefaultSideBar = [
 ];
 
 export default {
-  base: '/',
+  base: '/xinjs/',
   title: 'xinjs',
   lang: 'zh-CN',
   themeConfig: {
