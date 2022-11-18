@@ -39,4 +39,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACTION_SECRET }}
         with:
           target_branch: gh-pages
-          build_dir: packages/.vitepress/dist
+          build_dir: docs/.vitepress/dist
