@@ -61,7 +61,7 @@ scheduler.add(() => sleep(1000).then(() => console.log(3)));
 scheduler.add(() => sleep(3000).then(() => console.log(4)));
 scheduler.add(() => sleep(2000).then(() => console.log(5)));
 
-//console
+//console.log
 // 1
 // 3
 // 2
