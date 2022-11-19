@@ -10,6 +10,21 @@ const Cores = [
     items: [{ text: 'Move', link: '/packages/core/array/move/' }],
   },
 ]
+const Shared = [
+  Guide,
+  {
+    text: 'Is',
+    link: '/packages/shared/is/',
+  },
+  {
+    text: 'Noop',
+    link: '/packages/shared/noop/',
+  },
+  {
+    text: 'Sleep',
+    link: '/packages/shared/sleep/',
+  },
+]
 const Types = [
   Guide,
   {
@@ -34,6 +49,7 @@ const DefaultSideBar = [
   { text: 'Guide', items: Guide },
   { text: 'Core', items: Cores },
   { text: 'Patterns', items: Patterns },
+  { text: 'Shared', items: Shared },
   { text: 'Types', items: Types },
 ]
 
