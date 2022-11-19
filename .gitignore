@@ -7,5 +7,4 @@
 *.local
 dist
 node_modules
-types
 coverage

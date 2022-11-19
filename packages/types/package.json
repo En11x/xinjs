@@ -1,0 +1,14 @@
+{
+  "name": "@xinjs/types",
+  "version": "0.0.1-alpha.2",
+  "types": "src/index.d.ts",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
