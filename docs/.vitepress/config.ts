@@ -3,19 +3,18 @@ const Patterns = [
   Guide,
   { text: 'Scheduler', link: '/packages/patterns/scheduler/' },
 ];
-const Move = { text: 'Move', link: '/packages/core/array/move/' };
 const Cores = [
   Guide,
   {
     text: 'Array',
-    items: [Move],
+    items: [{ text: 'Move', link: '/packages/core/array/move/' }],
   },
 ];
 const Types = [
   Guide,
   {
-    text: 'types',
-    link: '/packages/types/',
+    text: 'Array',
+    link: '/packages/types/array/',
   },
 ];
 
