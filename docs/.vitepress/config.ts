@@ -16,6 +16,10 @@ const Types = [
     text: 'Array',
     link: '/packages/types/array/',
   },
+  {
+    text: 'Object',
+    link: '/packages/types/object/',
+  },
 ];
 
 const DefaultSideBar = [

@@ -9,7 +9,7 @@ ts 各种常用类型集合
 ## Usage
 
 ```ts
-import { ArrayItem } from '@xinjs/types';
+/// <reference types="@xinjs/types" />;
 ```
 
 ## Code
