@@ -24,6 +24,10 @@ const Types = [
     text: 'Chaos',
     link: '/packages/types/chaos/',
   },
+  {
+    text: 'Compute',
+    link: '/packages/types/compute/',
+  },
 ]
 
 const DefaultSideBar = [
