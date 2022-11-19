@@ -14,7 +14,9 @@
     "docs:build": "pnpm run -C docs build",
     "dev": "tsup --watch",
     "build": "tsup",
-    "release": "changeset publish"
+    "release": "pnpm build & pnpm release:only",
+    "release:only": "changeset publish",
+    "change:version": "changeset version"
   },
   "lint-staged": {
     "*.{vue,js,ts,jsx,tsx,json}": [

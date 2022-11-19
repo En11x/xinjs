@@ -13,5 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "1.0.0-alpha.29"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
