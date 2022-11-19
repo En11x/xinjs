@@ -1,9 +1,9 @@
-import { defineConfig, Options } from 'tsup';
+import { defineConfig, Options } from 'tsup'
 
 function outExtension({ format }: any) {
-  if (format === 'esm') return { js: `.${format}.js` };
-  if (format === 'iife') return { js: `.mjs` };
-  return { js: `.js` };
+  if (format === 'esm') return { js: `.${format}.js` }
+  if (format === 'iife') return { js: `.mjs` }
+  return { js: `.js` }
 }
 
 const BaseConfig: Options = {
@@ -15,7 +15,7 @@ const BaseConfig: Options = {
   sourcemap: true, // 添加 sourcemap 文件
   clean: true,
   outExtension,
-};
+}
 
 export default defineConfig([
   {
@@ -33,4 +33,4 @@ export default defineConfig([
     outDir: 'packages/shared/dist',
     ...BaseConfig,
   },
-]);
+])

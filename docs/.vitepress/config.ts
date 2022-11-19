@@ -1,15 +1,15 @@
-const Guide = [{ text: 'Get Started', link: '/guide/' }];
+const Guide = [{ text: 'Get Started', link: '/guide/' }]
 const Patterns = [
   Guide,
   { text: 'Scheduler', link: '/packages/patterns/scheduler/' },
-];
+]
 const Cores = [
   Guide,
   {
     text: 'Array',
     items: [{ text: 'Move', link: '/packages/core/array/move/' }],
   },
-];
+]
 const Types = [
   Guide,
   {
@@ -20,14 +20,18 @@ const Types = [
     text: 'Object',
     link: '/packages/types/object/',
   },
-];
+  {
+    text: 'Chaos',
+    link: '/packages/types/chaos/',
+  },
+]
 
 const DefaultSideBar = [
   { text: 'Guide', items: Guide },
   { text: 'Core', items: Cores },
   { text: 'Patterns', items: Patterns },
   { text: 'Types', items: Types },
-];
+]
 
 export default {
   base: '/',
@@ -59,4 +63,4 @@ export default {
       ],
     },
   },
-};
+}

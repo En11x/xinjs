@@ -9,9 +9,9 @@ category: Patterns
 ## Usage
 
 ```ts
-import { Scheduler } from '@xinjs/patterns';
+import { Scheduler } from '@xinjs/patterns'
 
-const scheduler = new Schedule(2);
+const scheduler = new Schedule(2)
 ```
 
 ## Code
@@ -19,27 +19,27 @@ const scheduler = new Schedule(2);
 ```ts
 class Scheduler {
   //max task
-  private max: number;
+  private max: number
   //waiting task list
-  private queue: any[];
+  private queue: any[]
   //current working task
-  private currentTask: number;
+  private currentTask: number
 
   constructor(max: number) {
-    this.max = max;
-    this.queue = [];
-    this.currentTask = 0;
+    this.max = max
+    this.queue = []
+    this.currentTask = 0
   }
 
   async add(task: any) {
     if (this.currentTask >= this.max) {
-      await new Promise((resolve) => this.queue.push(resolve));
+      await new Promise((resolve) => this.queue.push(resolve))
     }
-    this.currentTask++;
-    const res = await task();
-    this.currentTask--;
-    this.queue.length && this.queue.shift()();
-    return res;
+    this.currentTask++
+    const res = await task()
+    this.currentTask--
+    this.queue.length && this.queue.shift()()
+    return res
   }
 }
 ```
@@ -49,17 +49,17 @@ class Scheduler {
 ```ts
 const sleep = (time: number) => {
   return new Promise((resolve) => {
-    setTimeout(resolve, time);
-  });
-};
+    setTimeout(resolve, time)
+  })
+}
 
-const scheduler = new Scheduler(2);
+const scheduler = new Scheduler(2)
 
-scheduler.add(() => sleep(1000).then(() => console.log(1)));
-scheduler.add(() => sleep(2000).then(() => console.log(2)));
-scheduler.add(() => sleep(1000).then(() => console.log(3)));
-scheduler.add(() => sleep(3000).then(() => console.log(4)));
-scheduler.add(() => sleep(2000).then(() => console.log(5)));
+scheduler.add(() => sleep(1000).then(() => console.log(1)))
+scheduler.add(() => sleep(2000).then(() => console.log(2)))
+scheduler.add(() => sleep(1000).then(() => console.log(3)))
+scheduler.add(() => sleep(3000).then(() => console.log(4)))
+scheduler.add(() => sleep(2000).then(() => console.log(5)))
 
 //console.log
 // 1

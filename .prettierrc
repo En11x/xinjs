@@ -2,7 +2,7 @@
   "bracketSpacing": true,
   "jsxSingleQuote": false,
   "printWidth": 80,
-  "semi": true,
+  "semi": false,
   "useTabs": false,
   "singleQuote": true,
   "tabWidth": 2,
