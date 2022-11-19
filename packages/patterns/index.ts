@@ -1,1 +1,1 @@
-export * from './scheduler/index';
+export * from './scheduler';
