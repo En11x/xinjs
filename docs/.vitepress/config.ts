@@ -1,16 +1,25 @@
 const Guide = [{ text: 'Get Started', link: '/guide/' }];
-const Schedule = [
+const Patterns = [
   Guide,
   { text: 'Scheduler', link: '/packages/patterns/scheduler/' },
+];
+const Move = { text: 'Move', link: '/packages/core/array/move/' };
+const Cores = [
+  Guide,
+  {
+    text: 'Array',
+    items: [Move],
+  },
 ];
 
 const DefaultSideBar = [
   { text: 'Guide', items: Guide },
-  { text: 'Patterns', items: Schedule },
+  { text: 'Core', items: Cores },
+  { text: 'Patterns', items: Patterns },
 ];
 
 export default {
-  base: '/xinjs/',
+  base: '/',
   title: 'xinjs',
   lang: 'zh-CN',
   themeConfig: {
