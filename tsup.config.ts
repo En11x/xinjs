@@ -19,17 +19,17 @@ const BaseConfig: Options = {
 
 export default defineConfig([
   {
-    entry: ['packages/core/index.ts'],
+    entry: ['packages/core/src/index.ts'],
     outDir: 'packages/core/dist',
     ...BaseConfig,
   },
   {
-    entry: ['packages/patterns/index.ts'],
+    entry: ['packages/patterns/src/index.ts'],
     outDir: 'packages/patterns/dist',
     ...BaseConfig,
   },
   {
-    entry: ['packages/shared/index.ts'],
+    entry: ['packages/shared/src/index.ts'],
     outDir: 'packages/shared/dist',
     ...BaseConfig,
   },
