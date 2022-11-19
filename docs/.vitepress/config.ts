@@ -11,11 +11,19 @@ const Cores = [
     items: [Move],
   },
 ];
+const Types = [
+  Guide,
+  {
+    text: 'types',
+    link: '/packages/types/',
+  },
+];
 
 const DefaultSideBar = [
   { text: 'Guide', items: Guide },
   { text: 'Core', items: Cores },
   { text: 'Patterns', items: Patterns },
+  { text: 'Types', items: Types },
 ];
 
 export default {
