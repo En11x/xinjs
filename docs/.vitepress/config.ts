@@ -2,6 +2,7 @@ const Guide = [{ text: 'Get Started', link: '/guide/' }]
 const Patterns = [
   Guide,
   { text: 'Scheduler', link: '/packages/patterns/scheduler/' },
+  { text: 'Observer', link: '/packages/patterns/observer/' },
 ]
 const Cores = [
   Guide,
@@ -54,7 +55,7 @@ const DefaultSideBar = [
 ]
 
 export default {
-  base: '/',
+  base: '/xinjs/',
   title: 'xinjs',
   lang: 'zh-CN',
   themeConfig: {
