@@ -1,3 +1,4 @@
+const isDev = process.argv[process.argv.length - 1] === 'development'
 const Guide = [{ text: 'Get Started', link: '/guide/' }]
 const Patterns = [
   Guide,
@@ -55,7 +56,7 @@ const DefaultSideBar = [
 ]
 
 export default {
-  base: '/xinjs/',
+  base: isDev ? '/' : '/xinjs/',
   title: 'xinjs',
   lang: 'zh-CN',
   themeConfig: {
