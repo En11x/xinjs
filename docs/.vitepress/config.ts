@@ -4,6 +4,7 @@ const Patterns = [
   Guide,
   { text: 'Scheduler', link: '/packages/patterns/scheduler/' },
   { text: 'Observer', link: '/packages/patterns/observer/' },
+  { text: 'Pub-sub', link: '/packages/patterns/pub-sub/' },
 ]
 const Cores = [
   Guide,
