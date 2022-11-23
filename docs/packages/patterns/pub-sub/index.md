@@ -4,6 +4,8 @@ category: Patterns
 
 # Publish-Subscribe
 
+发布订阅模式
+
 ## Usage
 
 ```ts
