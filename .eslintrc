@@ -17,7 +17,7 @@
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
-    "no-console": "error",
+    "no-console": "off",
     "no-debugger": "error"
   }
 }
