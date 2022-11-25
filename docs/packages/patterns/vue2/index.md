@@ -4,7 +4,7 @@ category: Patterns
 
 # Vue2
 
-Vue2 响应式简单实现
+Vue2 响应式简单实现: Object.defineProperty + 发布订阅
 
 ## Usage
 
