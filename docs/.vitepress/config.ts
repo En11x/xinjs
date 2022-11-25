@@ -6,6 +6,7 @@ const Patterns = [
   { text: 'Observer', link: '/packages/patterns/observer/' },
   { text: 'Pub-sub', link: '/packages/patterns/pub-sub/' },
   { text: 'Singleton', link: '/packages/patterns/singleton/' },
+  { text: 'Vue2', link: '/packages/patterns/vue2/' },
 ]
 const Cores = [
   Guide,
