@@ -1,3 +1,3 @@
 # xinjs
 
-## A wanton js libray
+## A wanton js library
