@@ -14,6 +14,14 @@ const Cores = [
     text: 'Array',
     items: [{ text: 'Move', link: '/packages/core/array/move/' }],
   },
+  {
+    text: 'Debounce',
+    link: '/packages/core/debounce/'
+  },
+  {
+    text: 'Throttle',
+    link: '/packages/core/throttle/'
+  },
 ]
 const Shared = [
   Guide,
